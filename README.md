@@ -1,3 +1,6 @@
+> Projeto executado com IDE Eclipse Oxygen
+
+
 Tanto o stream() ou parallelStream() são usados para executar operações de forma mais rápida e porque não, de forma mais elegante, reduzindo a quantidade de código e o deixando menos verboso, a diferença está modo como será executado, enquanto stream() executa as operações de forma sequencial, o parallelStream() irá criar divisões das operações para rodarem ao mesmo tempo através de outras threads e no final junta-lás.
 
 A utilização do parallelStream() é indicada quando o sistema é executado em computadores com vários processadores ou núcleos, onde cada parte da operação pode ser executada e quando não é necessário manter uma ordem de execução.
